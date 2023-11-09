@@ -1,3 +1,7 @@
-http://18.222.112.18 {
+www.kevinandluisawedding.com {
+    redir kevinandluisawedding.com{uri}
+}
+
+kevinandluisawedding.com {
     reverse_proxy localhost:8000
 }
