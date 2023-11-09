@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cian Conway</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/0a38ab8407.js"></script>
+
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-touch-icon-iphone.png" />
+
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar">About</span>
+              <span class="icon-bar">Ceremony</span>
+              <span class="icon-bar">Venue</span>
+        </button>
+        <a class="navbar-brand" href="#">Wedding</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+          <li><a href="{{ url_for('ceremony') }}">Ceremony</a></li>
+          <li><a href="{{ url_for('reception') }}">Reception</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a class="navbar-brand" href="#" style="color: white;">Kevin & Luisa</a>
+        </ul>
+      </div>
+    </div>
+
+<body>
+	<h3>about us</h3>
+	        <strong>kevin</strong>
+	        <p>Talk </p>
+
+	        <strong>Luisa</strong>
+	        <p>Talk</p>
+
+	        <p></p>
+
+</body>
+
+</html>
