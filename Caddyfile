@@ -1,5 +1,5 @@
 www.kevinandluisawedding.com {
-    redir kevinandluisawedding.com{uri}
+    redir https://kevinandluisawedding.com{uri}
 }
 
 kevinandluisawedding.com {
