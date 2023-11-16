@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 244, 98, 58;
+  --bs-primary-rgb: 163, 102, 255;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f4623a;
-  --bs-link-hover-color: #c34e2e;
+  --bs-link-color: #212529;
+  --bs-link-hover-color: #fff;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -2846,11 +2846,11 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #f4623a;
-  --bs-btn-border-color: #f4623a;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #ffffff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #cf5331;
-  --bs-btn-hover-border-color: #c34e2e;
+  --bs-btn-hover-bg: #dbd0cc;
+  --bs-btn-hover-border-color: #dbd0cc;
   --bs-btn-focus-shadow-rgb: 246, 122, 88;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #c34e2e;
@@ -10856,7 +10856,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #fff;
   opacity: 1;
 }
 
@@ -10882,10 +10882,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #6f42c1;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #6f42c1 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10893,13 +10893,13 @@ hr.divider-light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10916,13 +10916,13 @@ hr.divider-light {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #6610f2;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #6610f2;
   }
 }
 
@@ -10992,7 +10992,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(163, 102, 255, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
