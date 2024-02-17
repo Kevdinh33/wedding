@@ -1,0 +1,10 @@
+python3 -m venv env
+source env/bin/activate
+
+ps xf
+kill [pid]
+git pull
+stop caddy
+sudo start caddy
+
+gunicorn main:app &
