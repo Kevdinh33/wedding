@@ -3,7 +3,11 @@ source env/bin/activate
 
 ps xf
 kill [pid]
-git pull
+
+~get token
+git config credential.helper store
+git push http://example.com/repo.git
+
 stop caddy
 sudo start caddy
 
