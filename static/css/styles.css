@@ -11123,4 +11123,27 @@ header.masthead h1, header.masthead .h1 {
   .right-2 {
     left: 0%;
   }
+
+  .popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location from the top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Popup content */
+.popup-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px; /* Set a max width */
+}
 }
