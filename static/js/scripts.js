@@ -58,15 +58,19 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 function openImagePopup() {
+    // Create the popup element
     var imagePopup = document.createElement("div");
     imagePopup.id = "imagePopup";
   
-    // Popup styles
-    imagePopup.style.position = "fixed";
-    imagePopup.style.top = "50px";
-    imagePopup.style.left = "0";
-    imagePopup.style.width = "100%";
-    imagePopup.style.height = "100%";
+    // Popup styles with flexbox
+    imagePopup.style.display = "flex";
+    imagePopup.style.alignItems = "center"; // Center vertically
+    imagePopup.style.justifyContent = "center"; // Center horizontally
+    imagePopup.style.position = "fixed"; // Maintain position on scroll
+    imagePopup.style.top = 0; // Align to top of viewport
+    imagePopup.style.left = 0; // Align to left of viewport
+    imagePopup.style.width = "100%"; // Set full width
+    imagePopup.style.height = "100vh"; // Set full viewport height
     imagePopup.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
     imagePopup.style.zIndex = "100";
   
@@ -88,11 +92,10 @@ function openImagePopup() {
   
     // Create and style the image
     var image = document.createElement("img");
-    image.src = "/static/assets/img/portfolio/WeddingSchedule.jpg";
-    image.style.width = "auto";
-    image.style.height = "100%";
-    image.style.display = "block";
-    image.style.margin = "auto";
+    image.src = "/static/assets/img/portfolio/WeddingSchedule.jpg"; // Update with your image path
+    image.style.maxHeight = "100%";
+    image.style.maxWidth = "100%";
+  
   
     // Click outside image to close popup
     imagePopup.addEventListener("click", function(event) {
@@ -108,4 +111,5 @@ function openImagePopup() {
     imagePopup.appendChild(image);
     document.body.appendChild(imagePopup);
   }
+  
 openImagePopup()
